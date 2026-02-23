@@ -1,0 +1,155 @@
+%-------------------------
+% Resume in Latex
+% Author : Jeffrey Perdue
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Jeffrey Perdue} \\ \vspace{1pt}
+    \small 513-462-6478 $|$ \href{mailto:jeffrey.perdue@gmail.com}{\underline{jeffrey.perdue@gmail.com}} $|$
+    \href{https://linkedin.com/in/jeffperdue/}{\underline{linkedin.com/in/jeffperdue/}} $|$
+    \href{https://github.com/jeffreyperdue}{\underline{github.com/jeffreyperdue}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northern Kentucky University}{Highland Heights, KY}
+{Bachelor of Science in Applied Software Engineering, Minor in Computer Science, GPA: 3.9}{May 2026}
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Tools \& Platforms}: Notion, Excel, Google Sheets, PowerPoint, Google Slides, Jira, ChatGPT, Claude \\
+\textbf{Methods}: Agile, Kanban, Sprint Planning, Customer Discovery, Technology Commercialization \\
+\textbf{Technical}: Python, SQL, TypeScript, Spring Boot, React, Azure
+}}
+\end{itemize}
+
+%-----------FELLOWSHIPS-----------
+\section{Fellowships \& Leadership}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{KCV Innovation Fellowship}{Spring 2026}
+{Kentucky Commercialization Ventures}{}
+\resumeItemListStart
+\resumeItem{Selected for cross-functional cohort focused on technology commercialization using the Time-to-Market framework}
+\resumeItem{Developing Market Attack Plans, conducting structured customer interviews, and assessing technology readiness levels}
+\resumeItem{Rotating as team lead across research phases, coordinating deliverables and pitch execution}
+\resumeItem{Designing commercialization strategies including IP positioning, revenue architecture, and ecosystem mapping}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Software Engineering Intern}{August 2025 -- April 2026}
+{Kroger Technology -- End-to-End Fresh}{Blue Ash, OH}
+\resumeItemListStart
+\resumeItem{Served as technical owner of a centralized mapping application to standardize temperature zone codes across distribution centers, coordinating stakeholder requirements and delivering controlled business updates to previously unmapped data}
+\resumeItem{Translated loosely defined business requests into technically precise implementation tasks through Agile and Kanban workflows, contributing to sprint planning and backlog refinement}
+\resumeItem{Built and maintained backend services and internal tooling supporting production-adjacent operations across supply chain systems}
+\resumeItemListEnd
+
+\resumeSubheading
+{Front End Supervisor}{June 2020 -- August 2025}
+{Costco Wholesale}{Columbus, OH; Florence, KY}
+\resumeItemListStart
+\resumeItem{Led and coordinated 60+ employees in high-volume retail operations, designing staffing and training structures to maintain performance consistency under fluctuating demand}
+\resumeItem{Partnered with management to analyze operational data, diagnose workflow bottlenecks, and implement process improvements for a department generating over \$180M in annual revenue}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{StressSpec — Requirements Risk Analysis Platform}}{Python, FastAPI}
+\resumeItemListStart
+\resumeItem{Built a platform to surface compliance risks, scope gaps, and structural ambiguity in project requirements before development begins, enabling earlier stakeholder intervention}
+\resumeItem{Implemented prioritization logic to rank and present the Top 5 riskiest requirements with executive summaries and exportable reports for stakeholder review}
+\resumeItem{Designed for dual audiences: a web interface for non-technical stakeholders and a CLI for technical users, backed by a shared analysis pipeline}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{NomNom Safe — Allergen-Aware Menu System}}{Firebase, React, Node.js}
+\resumeItemListStart
+\resumeItem{Collaborated on product design decisions to treat allergen signaling as safety-critical information, establishing structured data ownership and controlled update workflows}
+\resumeItem{Defined requirements documentation and architectural decisions aligned with IEEE and ISO-inspired standards, ensuring traceability across stakeholder and development handoffs}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\end{document}

@@ -1,0 +1,159 @@
+%-------------------------
+% Tailored Resume for Cleveland-Cliffs
+% Author : Jeffrey Perdue (adapted)
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]} 
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Jeffrey Perdue} \\ \vspace{1pt}
+    \small 513-462-6478 $|$ \href{mailto:jeffrey.perdue@gmail.com}{\underline{jeffrey.perdue@gmail.com}} $|$
+    \href{https://linkedin.com/in/jeffperdue/}{\underline{linkedin.com/in/jeffperdue/}} $|$
+    \href{https://github.com/jeffreyperdue}{\underline{github.com/jeffreyperdue}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\resumeSubHeadingListStart
+\resumeItemListStart
+\resumeItem{Motivated software engineer with hands-on experience building enterprise applications, data pipelines, and embedded systems. Comfortable working with cross-functional teams to translate operational needs into reliable software solutions. Eager to contribute to manufacturing-focused IT at Cleveland-Cliffs and rapidly learn platform-specific technologies such as Angular or .NET/C#.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northern Kentucky University}{Highland Heights, KY}
+{Bachelor of Science in Applied Software Engineering, Minor in Computer Science, GPA: 3.9}{May 2026}
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Relevant Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Languages}: Java, Python, TypeScript, SQL, Embedded C/C++ \\
+\textbf{Frameworks \& Frontend}: React (strong), familiarity with TypeScript-based frameworks; quick to learn Angular \\
+\textbf{Backend \& Platforms}: Spring Boot, REST APIs, experience integrating services and databases; learning .NET / C# for enterprise apps \\
+\textbf{Data \& Databases}: SQL Server, Azure Synapse, Databricks; designed reconciliation and ETL logic \\
+\textbf{Practices}: Agile/Kanban, Git, code reviews, CI concepts, system integrtation, technical documentation
+}}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Software Engineering Intern}{August 2025 -- April 2026}
+{Kroger Technology -- End-to-End Fresh}{Blue Ash, OH}
+\resumeItemListStart
+\resumeItem{Developed backend services and enterprise data integrations supporting production-adjacent operations using Spring Boot, SQL Server, Azure Synapse, and Databricks.}
+\resumeItem{Engineered a Spring Boot scheduler to monitor device telemetry gaps, query SQL Server for stale records, and dispatch OAuth2-authenticated alert summaries with robust error handling and testable design.}
+\resumeItem{Designed production-grade SQL reconciliation logic (CTEs, window functions, anti-joins) to manage incremental loads and ensure data consistency across systems.}
+\resumeItem{Served as technical owner for a centralized mapping application to standardize temperature zone codes across distribution centers, coordinating stakeholder requirements and controlled business updates.}
+\resumeItem{Participated in Agile workflows, sprint planning, code reviews, and cross-functional collaboration with operations and engineering teams to deliver reliable features.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Front End Supervisor}{June 2020 -- August 2025}
+{Costco Wholesale}{Columbus, OH; Florence, KY}
+\resumeItemListStart
+\resumeItem{Led operational teams and used data-driven analysis to diagnose workflow bottlenecks and implement process improvements for a high-volume department serving major revenue streams.}
+\resumeItem{Collaborated with management to translate operational requirements into staffing, training, and tooling changes — experience directly applicable to manufacturing/operations partnerships.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Selected Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{StillCold — BLE-Based Embedded Temperature Monitoring}}{ESP32-C6, Arduino Nano, BLE, I\textsuperscript{2}C}
+\resumeItemListStart
+\resumeItem{Architected a modular embedded system separating sensing from wireless exposure; implemented periodic sensor acquisition and BLE characteristics to reliably surface temperature telemetry.}
+\resumeItem{Validated end-to-end data flow and designed for low-overhead deterministic operation — relevant to device telemetry and manufacturing sensor integrations.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{StressSpec — Requirements Risk Analysis Platform}}{Python, FastAPI}
+\resumeItemListStart
+\resumeItem{Built a rule-based analysis platform to detect requirement risks and export prioritized findings to support decision-making and process improvement.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------ADDITIONAL-----------
+\section{Additional Info}
+\resumeSubHeadingListStart
+\resumeItemListStart
+\resumeItem{Willing to work on-site full-time (5 days/week).}
+\resumeItem{Familiar with enterprise development practices, eager to upskill to COBOL/mainframe or .NET as needed for integrations and legacy systems.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
