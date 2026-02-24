@@ -1,0 +1,154 @@
+%-------------------------
+% PM / Product Analyst Resume in Latex
+% Author : Jeffrey Perdue
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Jeffrey Perdue} \\ \vspace{1pt}
+    \small 513-462-6478 $|$ \href{mailto:jeffrey.perdue@gmail.com}{\underline{jeffrey.perdue@gmail.com}} $|$
+    \href{https://linkedin.com/in/jeffperdue/}{\underline{linkedin.com/in/jeffperdue/}} $|$
+    \href{https://github.com/jeffreyperdue}{\underline{github.com/jeffreyperdue}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northern Kentucky University}{Highland Heights, KY}
+{Bachelor of Science in Applied Software Engineering, Minor in Computer Science, GPA: 3.9}{May 2026}
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Product \& Strategy}: Opportunity evaluation, DFV framing, impact mapping, feature prioritization, roadmap and lifecycle strategy \\
+\textbf{User Research \& UX}: Interviews, surveys, personas, journey mapping, usability tests, heuristic reviews, cognitive walkthroughs \\
+\textbf{Analytics \& Experimentation}: KPI definition (retention, churn, engagement), A/B testing, adoption modeling, survey analysis, data-informed iteration \\
+\textbf{Tools}: Notion, Excel/Sheets, PowerPoint, Jira, SQL, Python, AI-assisted workflows (ChatGPT, Claude, Cursor) \\
+\textbf{Technical Collaboration}: Partnering with engineering teams on Spring Boot, React, REST APIs, Azure, and data-backed internal tools
+}}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Software Engineering Intern}{August 2025 -- April 2026}
+{Kroger Technology -- End-to-End Fresh}{Blue Ash, OH}
+\resumeItemListStart
+\resumeItem{Owned a centralized temperature-zone mapping application, aligning stakeholder requirements and reducing unmapped codes to enable consistent reporting and operational decisions}
+\resumeItem{Clarified loosely defined business requests into structured stories and acceptance criteria, contributing to Agile sprint planning, backlog refinement, and priority trade-off discussions}
+\resumeItem{Collaborated with engineers and data teams on backend services and internal tooling for supply chain systems, ensuring reliability and operational constraints were reflected in implementation}
+\resumeItemListEnd
+
+\resumeSubheading
+{Front End Supervisor}{June 2020 -- August 2025}
+{Costco Wholesale}{Columbus, OH; Florence, KY}
+\resumeItemListStart
+\resumeItem{Led and coordinated 60+ employees in a high-volume retail environment, designing staffing and training approaches to keep service levels stable under fluctuating demand}
+\resumeItem{Partnered with management to analyze operational data, streamline workflows, and implement process improvements for a department generating over \$180M in annual revenue}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PRODUCT & UX PROJECTS-----------
+\section{Product \& UX Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{StressSpec — Requirements Risk Analysis Platform}}{Python, FastAPI}
+\resumeItemListStart
+\resumeItem{Created a platform that surfaces structural and compliance risks in project requirements so teams can intervene before development begins}
+\resumeItem{Defined risk categories, scoring, and Top 5 summaries to help stakeholders quickly prioritize follow-up conversations and refinement work}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{NomNom Safe — Allergen-Aware Menu System}}{Firebase, React, Node.js}
+\resumeItemListStart
+\resumeItem{Collaborated on product design for a safety-critical menu system, treating allergen information as structured data with clear ownership instead of free-text notes}
+\resumeItem{Defined requirements and access patterns to preserve data integrity, support role-based updates, and reduce long-term risk for restaurants and customers}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------FELLOWSHIPS & LEADERSHIP-----------
+\section{Fellowships \& Leadership}
+\resumeSubHeadingListStart
+\resumeSubheading
+{KCV Innovation Fellowship}{Spring 2026}
+{Kentucky Commercialization Ventures}{}
+\resumeItemListStart
+\resumeItem{Selected for a cross-functional cohort focused on bringing university technologies to market using the Time-to-Market commercialization framework}
+\resumeItem{Lead and contribute to market analysis, structured customer discovery interviews, and technology readiness assessments to shape Market Attack Plans and stakeholder pitches}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
+

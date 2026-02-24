@@ -1,0 +1,37 @@
+About the job
+Location: Cincinnati Hybrid 40-50% - in-office
+
+We’re adding to our diverse team of experts and are looking to hire those who are committed to building a culture that enables the creation of innovative solutions for our business units and clients. We will consider a range of experience for this role and the offer will be commensurate with that.
+
+The Company
+
+As a member of Munich Re's US operations, we offer the financial strength and stability that comes with being part of the world's preeminent insurance and reinsurance brand. Our risk experts work together to assemble the right mix of products and services to help our clients stay competitive – from traditional reinsurance coverages, to niche and specialty reinsurance and insurance products.
+
+Enterprise Information Management (EIM) is part of IT Business Solutions. EIM drives end-to-end delivery and maintenance of data solutions. Our Solutions include Analytics data platforms, MDM, Data Quality, Metadata management, Data governance tools and upcoming solutions for supporting Data Landscape growing needs. Our Data practiced are comprised of Requirement Analysis, Data Modeling, Data Engineering, Enterprise Reporting and Testing. We ensure integrity of data for business operations and decision making. We build & provide support for the services we offer. EIM partners with our BIA team in business to drive Data strategy, govern data assets and create business value from our data assets. EIM collaborates with other IT teams like Enterprise Architecture, global platform teams and others, to build technology roadmaps, reference architecture and data capabilities. EIM’s charter is to build solutions that deliver business value. At the same time, we ensure these solutions are forward thinking, scalable, sustainable and drive standardization to achieve economies of scale.
+
+GSI (Global Specialty Insurance) data teams have embarked on a modernization journey. EIM is laying out transformation plans for our teams and data landscape. We are looking for strong leaders to lead the teams on this journey through their business and technical acumen.
+
+The position provides support to GSI EIM’s Data Analyst teams. In this position, you will perform the role of an analyst, gathering business requirements, functional requirements, and data mapping across a variety of projects and/or production support. You will also be accountable for ensuring all required requirements artifacts are completed.
+
+Business Analyst Responsibilities include:
+
+Work with other analysts, technical leads, system testing and/or IT managers to produce project estimates for IT efforts
+Conduct requirement gathering and gap analysis activities for IT projects and relevant maintenance and support initiatives
+Create business requirements, functional requirements, and data mapping documents as required for projects and / or production support
+Track, manage, and report issues and scope changes on small maintenance efforts
+Identify continuous process improvement opportunities and operationalize solutions for same
+Create and maintain relevant documentation for software changes to ensure long-term maintainability
+Follow established guidelines and processes for project methodologies – OneEssentials
+
+
+Basic Knowledge, Skills, And Experience: 
+
+Experience in Datawarehouse projects needed
+Financial or Insurance background preferred
+Experience in SQL queries and SQL Analytical Functions within data warehouse environments 
+Experience in requirements for Business Intelligence Reports
+Excellent working knowledge in business requirements, functional requirements, and data mapping.
+Agile/Scrum experience
+Project Tracking and Reporting
+Experience in using tasks management tools such as Azure DevOps (VSTS) or similar tools
+Strong communication skills

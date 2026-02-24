@@ -1,0 +1,155 @@
+%-------------------------
+% Munich Re Business Analyst Resume in LaTeX
+% Author : Jeffrey Perdue
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Jeffrey Perdue} \\ \vspace{1pt}
+    \small 513-462-6478 $|$ \href{mailto:jeffrey.perdue@gmail.com}{\underline{jeffrey.perdue@gmail.com}} $|$
+    \href{https://linkedin.com/in/jeffperdue/}{\underline{linkedin.com/in/jeffperdue/}} $|$
+    \href{https://github.com/jeffreyperdue}{\underline{github.com/jeffreyperdue}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northern Kentucky University}{Highland Heights, KY}
+{Bachelor of Science in Applied Software Engineering, Minor in Computer Science, GPA: 3.9}{May 2026}
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Business \& Data Analysis}: Requirements gathering, gap analysis, data mapping, process improvement, documentation for long-term maintainability \\
+\textbf{Data \& BI}: SQL (joins, CTEs, analytical functions), data warehousing concepts, data quality, report requirements, Azure Synapse Analytics, Databricks, SQL Server \\
+\textbf{Methods \& Delivery}: Agile/Scrum, sprint planning, backlog refinement, project tracking and reporting, production support and issue tracking \\
+\textbf{Tools}: Excel/Sheets, PowerPoint, Jira, Git, DBeaver, Azure Synapse, Databricks, AI-assisted workflows (ChatGPT, Claude, Cursor) \\
+\textbf{Domain}: Retail operations and supply chain, safety-critical data, technology commercialization
+}}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Software Engineering Intern}{August 2025 -- April 2026}
+{Kroger Technology -- End-to-End Fresh}{Blue Ash, OH}
+\resumeItemListStart
+\resumeItem{Contributed to analytics and data platform initiatives supporting production-adjacent supply chain systems using Spring Boot, SQL Server, Azure Synapse Analytics, and Databricks}
+\resumeItem{Engineered a scheduler service to monitor telemetry gaps, query SQL Server for stale device records, and trigger structured alerting so operations teams could intervene before data quality impacted reporting}
+\resumeItem{Designed version-aware reconciliation logic using SQL CTEs and window functions to compare incoming purchase order loads with warehouse tables, prevent silent drift, and preserve historical correctness}
+\resumeItem{Translated loosely defined business requests into clear technical tasks and acceptance criteria, collaborating with analysts and product owners in Agile ceremonies and using Jira for work tracking}
+\resumeItemListEnd
+
+\resumeSubheading
+{Front End Supervisor}{June 2020 -- August 2025}
+{Costco Wholesale}{Columbus, OH; Florence, KY}
+\resumeItemListStart
+\resumeItem{Led and coordinated 60+ employees in a high-volume retail environment, designing staffing and training approaches to keep service levels stable under fluctuating demand}
+\resumeItem{Partnered with management to analyze operational data, identify workflow bottlenecks, and implement process improvements for a department generating over \$180M in annual revenue}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Selected Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{StressSpec — Requirements Risk Analysis Platform}}{Python, FastAPI, Reporting}
+\resumeItemListStart
+\resumeItem{Built a platform to detect structural and compliance risks in project requirements so stakeholders can address issues before development and reporting pipelines are designed}
+\resumeItem{Defined risk categories, scoring rules, and Top 5 summaries, producing HTML/CSV/JSON outputs that support executive review and downstream BI work}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{NomNom Safe — Allergen-Aware Menu System}}{Firebase, React, Node.js}
+\resumeItemListStart
+\resumeItem{Collaborated on data and access model for a safety-critical menu system, treating allergens as structured entities with clear ownership instead of free-text notes}
+\resumeItem{Specified requirements and role-based access patterns to preserve data integrity, support controlled updates, and reduce long-term operational risk}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------FELLOWSHIPS & LEADERSHIP-----------
+\section{Fellowships \& Leadership}
+\resumeSubHeadingListStart
+\resumeSubheading
+{KCV Innovation Fellowship}{Spring 2026}
+{Kentucky Commercialization Ventures}{}
+\resumeItemListStart
+\resumeItem{Selected for a cross-functional cohort focused on bringing university technologies to market using the Time-to-Market commercialization framework}
+\resumeItem{Lead and contribute to market analysis, structured customer discovery interviews, and technology readiness assessments to shape Market Attack Plans and stakeholder pitches}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
+
