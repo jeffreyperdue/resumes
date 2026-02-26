@@ -1,0 +1,54 @@
+Return to selected search result
+Application Engineer
+Apply
+remote type
+Hybrid
+locations
+Cincinnati, OH (USA)
+time type
+Full time
+posted on
+Posted 23 Days Ago
+job requisition id
+R8481
+Be Here. Be Great. Working for a leader in the insurance industry means opportunity for you. Great American Insurance Group's member companies are subsidiaries of American Financial Group. We combine a "small company" culture where your ideas will be heard with "big company" expertise to help you succeed. With over 30 specialty and property and casualty operations, there are always opportunities here to learn and grow.
+
+At Great American, we value and recognize the benefits derived when people with different backgrounds and experiences work together to achieve business results. Our goal is to create a workplace where all employees feel included, empowered, and enabled to perform at their best.
+
+P&C IT Services provides professional services to help our business units and corporate functions use technology to create, manage, and optimize information and business processes.  IT Services can include a wide range of activities such as: software development, data management, Cloud services, IT security, network security, technical support, establishing and overseeing access rights, procuring and maintaining equipment or software, managing the infrastructure, and defining security procedures,  The overall goal of IT Services is to provide technology solutions that increase efficiency, reduce costs, and give our company a competitive advantage over our competitors.
+
+Great American’s culture is built on connection, shared learning, and strong relationships. To support this, employees in this role are expected to be on-site a minimum of two days a week, with the potential to work three days remotely. Core in‑office days are Tuesday and Thursday but will be determined by business needs. 
+
+The ideal candidate will have strong experience in modern full‑stack development using .NET Core, C#, Entity Framework Core, and front‑end technologies such as HTML, CSS, and JavaScript frameworks (Vue, React, or Angular). They should possess solid problem‑solving skills, be able to work independently as well as collaboratively, and be comfortable working with the latest development tools—including GitHub Copilot and other AI-assisted development technologies. Experience developing scalable, secure web applications and writing high‑quality, testable code is essential.
+
+Essential Job Functions and Key Responsibilities
+
+Design, develop, test, document, and maintain application features and services.
+Develop and optimize RESTful APIs, microservices, and backend business logic using .NET Core.
+Implement responsive, accessible, and user-friendly front‑end interfaces using modern JavaScript frameworks.
+Utilize Entity Framework Core for efficient and secure data access.
+Apply Test‑Driven Development (TDD) principles and create comprehensive unit tests using industry-standard testing frameworks.
+Leverage GitHub Copilot and other AI‑assisted tools to enhance code quality and development efficiency.
+Collaborate with product owners, UX designers, QA, and cross‑functional teams to define requirements and deliver high‑quality solutions.
+Ensure application security, performance, scalability, and proper use of design patterns.
+Participate in code reviews, continuous integration, deployment activities, and agile ceremonies
+Provides technical support to end-users, addressing and resolving application-related issues in a timely manner.
+Proactively identifies opportunities for process improvements and implements solutions that enhance overall system performance.
+Required Qualifications
+
+Bachelor’s degree in computer science or a related field.
+3+ years of hands‑on experience in full‑stack software development – UNLESS Associate Level.
+Proficiency in .NET Core, C#, Entity Framework Core.
+Experience with cloud platforms and modern development frameworks.
+Experience working in Agile/Scrum environments.
+Experience with modern JavaScript frameworks such as Vue, React, or Angular.
+Strong understanding of RESTful API design, microservices architecture, and asynchronous programming.
+Familiarity with common software design patterns (MVC, Repository, Dependency Injection, Factory, Singleton, etc.).
+Hands-on experience with unit testing frameworks (e.g., xUnit, NUnit, MSTest) and Test‑Driven Development practices.
+Experience using GitHub Copilot or similar AI‑assisted development tools.
+Strong analytical, debugging, and problem‑solving abilities.
+Effective verbal and written communication skills.
+Ability to work both independently and collaboratively in a team environment.
+Business Unit:
+
+Property & Casualty IT Services

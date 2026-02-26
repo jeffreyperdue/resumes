@@ -1,0 +1,57 @@
+
+Position:  Applications Analyst 2 (Applications Programmer) (4438-12)
+Location: 	Cincinnati, OH
+Job Id:  4438-12
+Applications Analyst 2 (Applications Programmer) (4438-12)
+ 
+Highly Competitive Employee Benefits Package and Generous Paid Time Off
+ 
+11 Paid Holidays, Immediately Begin with 40 hours Paid Vacation if No Prior Service.
+Ohio Public Employee Retirement System which includes 14% Employer Contribution AND a defined benefit option.
+Highly Competitive and Comprehensive Benefits Package: Medical, HRA, Dental, Vision, Employer-Paid Life Insurance, Long-Term Disability, Tuition Reimbursement, Paid Parental Leave, Public Service Loan Forgiveness Eligibility, Commuter Stipend or Free On-Site Parking, Wellness Incentives, robust Employee Assistance Program, access to Free Medical and Rx through Marathon Health, plus expansive Behavioral and Mental Health Resources, and More!
+ 
+DEADLINE TO APPLY: Open until filled
+ 
+WORK LOCATION:
+Job & Family Services 
+222 E. Central Parkway
+Cincinnati, OH 45202
+ 
+WORK HOURS: 
+(Potential for Hybrid Remote Work Schedule)
+ 
+ANNUAL SALARY: $72,925 annually
+ 
+NOTE: Applicants for positions with Hamilton County Job and Family Services are subject to background screening in accordance with the document: "Offenses that May Disqualify Candidates for Employment." Convictions from this list may disqualify a candidate for employment with HCJFS.
+ 
+Applicants for Children’s Services positions cannot provide foster care for children in the custody of Hamilton County.
+ 
+REQUIREMENTS (EDUCATION, EXPERIENCE, LICENSURE, CERTIFICATION): 
+Bachelor’s degree in information science or related field from an accredited college or university; AND two (2) years of experience in programming/ application development or as a Software Developer, Systems Analyst or equivalent OR
+Associate degree in information science or related field from an accredited college or university; AND four (4) years of experience in programming/ application development or as a Software Developer, Systems Analyst or equivalent
+JOB DUTIES (SUMMARY):
+Creates and customizes application programs designed around the specific needs and requests of clients. Responsible for the creation of solutions using the System Development Life Cycle (SDLC) which includes, but is not limited to, requirements analysis, application design, software prototyping, implementation, testing, training, and deployment.  
+Provides accurate, quality analyses of new program applications. Consults with management to determine goals and objectives and talks with clients to determine their needs and clarify program objectives.
+Develops specifications, identifies inputs and formats the output to meet users needs. Creates and customizes application programs designed around the specific requests of clients.
+Prepares reports on solutions. Writes documentation to describe development, logic, coding and corrections. Creates instruction manuals and/or help screens describing installation and operating procedures.
+Coordinates user testing and provides training on program applications. Creates networks of application users within or across the organization.
+Maintains programs and creates necessary upgrades.  Accountable for handling client maintenance requests to update, repair, modify and/or expand existing applications.  Applies knowledge effectively to research, troubleshoot and resolve production support issues.  Maintains documentation as necessary for operational and security audits.
+Acts as a resource to other Information Systems staff.  Assists in the design and coding of intricate subroutines, procedures and advanced programming techniques.  Contributes to the orientation and training of Information Systems personnel.
+Serves on or chairs various departmental committees to recommend standard or procedural changes.
+Evaluates, proposes and oversees the implementation of approved hardware and software.
+Attends conferences and training.
+Performs other related duties as assigned.
+KNOWLEDGE, SKILLS AND ABILITIES: (*Indicates can be developed after employment)
+Knowledge of: knowledge in one or more of the following: SQL, APEX, JAVA, Enterprise Content Management (ECM)/Business Process Management (BPM); operation of computer hardware and peripheral equipment; computer programming; data and file structure; agency policies and procedures. *
+Skill In: SQL/PLSQL; Java/J2EE development; use of CSS, HTML, XML, JavaScript, Web Services (WSDL/SOAP/UDDI); Oracle ADF Framework, specifically JDeveloper 11g, Task flows, ADF Faces, ADF Business Components, ADF security, Templates, and integration with web services; deploying n-tier Enterprise/Web Applications under Oracle WebLogic; gathering requirements and designing, developing, testing and debugging applications; communication; organization; being detail and goal-oriented; being self-directed.
+Ability to:  define problems, collect data, establish facts & draw valid conclusions; interpret extensive variety of technical material; interview job applicants effectively; understand manuals and verbal instructions, technical in nature; write and/or modify, test and debug full range of computer programs using high level languages; prepare meaningful, concise and accurate reports; gather, collate and classify information about data, people or things; cooperate with co-workers on group project; work independently as well as a part of a team.
+ESSENTIAL JOB FACTORS:
+Must undergo a background check via the Ohio Bureau of Criminal Identification and Investigation (BCI). Must have a car, valid driver’s license issued by the state of residency and required auto liability insurance.
+BACKGROUND CHECKS REQUIRED:
+Background checks consistent with requirements in OAC 5101:2-5-09 must be completed at employment and every ten years following, including but not limited to the following systems:  
+State Automated Child Welfare Information System (SACWIS)
+State Child/Abuse Neglect Central Registry Check for any state in which the applicant resided within the last five years
+Ohio Bureau of Criminal Identification Investigation (BCI)
+FBI
+National Sex Offender Public website (WWW.NSOPW.Gov) Code 5101:2-5-09 must be conducted for each prospective employee.
+ 
