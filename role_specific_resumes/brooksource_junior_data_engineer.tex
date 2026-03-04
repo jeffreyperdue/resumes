@@ -1,0 +1,146 @@
+%-------------------------
+% Brooksource Junior Data Engineer — Tailored Resume
+% One-page tailored resume | Author: Jeffrey Perdue
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Jeffrey Perdue} \\ \vspace{1pt}
+    \small 513-462-6478 $|$ \href{mailto:jeffrey.perdue@gmail.com}{\underline{jeffrey.perdue@gmail.com}} $|$
+    \href{https://linkedin.com/in/jeffperdue/}{\underline{linkedin.com/in/jeffperdue/}} $|$
+    \href{https://github.com/jeffreyperdue}{\underline{github.com/jeffreyperdue}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northern Kentucky University}{Highland Heights, KY}
+{Bachelor of Science in Applied Software Engineering, Minor in Computer Science, GPA: 3.9}{May 2026}
+\resumeItemListStart
+\resumeItem{\textbf{Relevant Coursework}: Database Programming; Data Structures \& Algorithms; Server-Side Programming; Statistical Methods; Advanced Topics in Computer Science (AI-Driven IoT Systems)}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{SQL \& Data}: SQL, SQL Server, Azure Synapse Analytics, Databricks; incremental data loading, reconciliation logic, data quality monitoring \\
+\textbf{Programming}: Python, Java, TypeScript, JavaScript \\
+\textbf{Data \& Cloud Platforms}: Spring Boot, Spring Data JPA, REST APIs; Azure; MongoDB, Firebase \\
+\textbf{Practices}: Agile/Scrum, unit testing (pytest), code reviews, design patterns (MVC, Repository) \\
+\textbf{Tooling}: Git, GitHub, DBeaver, Jira; AI-assisted development (GitHub Copilot, Cursor)
+}}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Software Engineering Intern}{August 2025 -- April 2026}
+{Kroger Technology -- End-to-End Fresh}{Blue Ash, OH}
+\resumeItemListStart
+\resumeItem{Contributing to backend services and enterprise data platforms using Spring Boot, SQL, Azure Synapse, and Databricks to support production-adjacent systems that rely on accurate and timely data}
+\resumeItem{Engineered a production-grade Spring Boot scheduler that queries SQL Server for stale device telemetry, identifies gaps using joins and time-based filters, and dispatches structured email alerts to protect downstream analytics}
+\resumeItem{Designed version-aware SQL reconciliation logic in SQL Server using CTEs, window functions, and anti-join semantics to manage incremental purchase order loads, apply soft-deactivation rules, and eliminate silent pipeline drift}
+\resumeItem{Collaborating with product owners and analysts in Agile ceremonies to clarify requirements, document expected data behavior, and translate loosely defined business needs into concrete SQL- and API-focused implementation tasks}
+\resumeItem{Serving as technical owner for a centralized mapping application standardizing temperature zone codes across distribution centers, modeling controlled vocabularies and documenting mapping rules to support consistent reporting}
+\resumeItemListEnd
+
+\resumeSubheading
+{Front End Supervisor}{June 2020 -- August 2025}
+{Costco Wholesale}{Columbus, OH; Florence, KY}
+\resumeItemListStart
+\resumeItem{Led and trained 60+ employees in a high-volume environment, coordinating staffing and workflows and partnering with management to interpret operational data and address bottlenecks in a \$180M+ revenue department}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------SELECTED PROJECTS-----------
+\section{Selected Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{StressSpec --- Requirements Risk Analysis Platform}}{Python, FastAPI, REST API, pytest}
+\resumeItemListStart
+\resumeItem{Built a full-stack analysis platform with REST and CLI interfaces backed by a unified processing pipeline that ingests requirement documents, applies rule-based checks, and produces structured HTML/CSV/JSON reports}
+\resumeItem{Designed a modular rule engine with 8 risk categories and extensible scoring logic; validated behavior through comprehensive unit and integration tests using pytest}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Relational Database Design \& SQL --- Course Project}}{SQL, ER Modeling, Normalization}
+\resumeItemListStart
+\resumeItem{Translated business requirements into entity-relationship models and mapped them to normalized relational schemas, applying BCNF decomposition to eliminate redundancy and prevent insertion, deletion, and update anomalies}
+\resumeItem{Wrote complex SQL queries using subqueries, multi-table joins (inner, outer), aggregation with GROUP BY/HAVING, and set operations to answer analytical questions against structured datasets}
+\resumeItem{Enforced data integrity through primary/foreign key constraints, CHECK and NOT NULL rules, and views, ensuring schema-level correctness aligned with domain business rules}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\end{document}
+

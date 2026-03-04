@@ -1,0 +1,173 @@
+CSC 350 – Database Programming
+Context Summary for Resume Tailoring
+Course Overview
+
+Upper-level undergraduate course focused on relational database theory, SQL, database design, and normalization. The course emphasized both practical SQL implementation and formal design principles for building well-structured relational databases.
+
+Core Technical Topics Covered
+1. Relational Model Fundamentals
+
+Relations (tables), tuples (rows), attributes (columns)
+
+Domains and atomicity
+
+Relation schema vs. relation instance
+
+Set-based thinking in database systems
+
+2. SQL (Structured Query Language)
+Data Definition Language (DDL)
+
+CREATE TABLE
+
+Domain types (char, varchar, numeric, date, etc.)
+
+Primary keys
+
+Foreign keys
+
+NOT NULL, UNIQUE, CHECK constraints
+
+Data Manipulation Language (DML)
+
+SELECT, INSERT, UPDATE, DELETE
+
+Subqueries (nested, scalar, correlated)
+
+Joins (inner, left outer, right outer, full outer)
+
+Set operations (UNION, INTERSECT, EXCEPT)
+
+Aliasing
+
+String and arithmetic operations
+
+Aggregation & Grouping
+
+GROUP BY
+
+HAVING
+
+COUNT, SUM, AVG, MIN, MAX
+
+DISTINCT handling
+
+Three-valued logic with NULL
+
+Intermediate SQL
+
+Views (CREATE VIEW)
+
+View expansion
+
+Update behavior on views
+
+Built-in date/time functions
+
+Basic transaction concepts
+
+Authorization concepts
+
+Database Design (Conceptual to Logical)
+1. Entity-Relationship (ER) Modeling
+
+Identifying entities, attributes, and relationships from requirements
+
+Primary keys and candidate keys
+
+Cardinality (1:1, 1:N, M:N)
+
+Weak entities
+
+Multivalued attributes
+
+Composite attributes
+
+Specialization / Generalization (ISA relationships)
+
+Disjoint vs. overlapping constraints
+
+Total vs. partial participation
+
+2. Mapping ER → Relational Schema
+
+Converting strong and weak entities to relations
+
+Representing many-to-many relationships
+
+Handling multivalued attributes via separate relations
+
+Foreign key implementation
+
+Eliminating redundant schemas
+
+Normalization & Relational Design Quality
+Functional Dependencies (FDs)
+
+Identifying FDs from domain rules
+
+Interpreting X → Y relationships
+
+Candidate keys
+
+Determining design flaws from FDs
+
+Normal Forms
+
+First Normal Form (1NF)
+
+BCNF (Boyce–Codd Normal Form)
+
+Decomposition techniques
+
+Lossless-join decomposition
+
+Avoiding insertion, deletion, and update anomalies
+
+Redundancy detection and elimination
+
+Skills Demonstrated
+
+This course demonstrates:
+
+Ability to design relational databases from user requirements
+
+Understanding of schema-level data integrity
+
+Formal reasoning using functional dependencies
+
+Ability to decompose poorly structured tables
+
+SQL proficiency beyond basic SELECT statements
+
+Understanding of how database design impacts redundancy and anomalies
+
+Knowledge of how constraints enforce business rules
+
+Structured thinking about data modeling and system correctness
+
+Resume Positioning Guidance for LLM
+
+When incorporating this into a resume:
+
+Focus on:
+
+Database design from requirements
+
+ER modeling and schema mapping
+
+Normalization and anomaly prevention
+
+Functional dependency analysis
+
+Complex SQL query construction
+
+Data integrity enforcement using constraints
+
+Avoid overemphasizing:
+
+Basic SELECT/WHERE practice
+
+Trivial syntax exercises
+
+This course reflects conceptual database design capability, not just query writing.

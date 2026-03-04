@@ -1,0 +1,155 @@
+%-------------------------
+% TQL Product Manager — Tailored Resume
+% One-page tailored resume | Author: Jeffrey Perdue
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Jeffrey Perdue} \\ \vspace{1pt}
+    \small 513-462-6478 $|$ \href{mailto:jeffrey.perdue@gmail.com}{\underline{jeffrey.perdue@gmail.com}} $|$
+    \href{https://linkedin.com/in/jeffperdue/}{\underline{linkedin.com/in/jeffperdue/}} $|$
+    \href{https://github.com/jeffreyperdue}{\underline{github.com/jeffreyperdue}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northern Kentucky University}{Highland Heights, KY}
+{Bachelor of Science in Applied Software Engineering, Minor in Computer Science, GPA: 3.9}{May 2026}
+\resumeItemListStart
+\resumeItem{\textbf{Relevant Coursework}: Software Design; Software Engineering \& Security; Database Programming; Statistical Methods; Data Structures \& Algorithms}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Product \& Delivery}: Agile/Scrum, Kanban, sprint planning, backlog refinement, user story authoring, Jira \\
+\textbf{Analysis \& Requirements}: requirements definition, risk analysis, data-driven prioritization, dependency identification \\
+\textbf{Technical Fluency}: REST APIs, software development lifecycle, SQL, Spring Boot, React, Azure \\
+\textbf{Tooling}: Git, GitHub, DBeaver; AI-assisted development (GitHub Copilot, Cursor)
+}}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Software Engineering Intern}{August 2025 -- April 2026}
+{Kroger Technology -- End-to-End Fresh}{Blue Ash, OH}
+\resumeItemListStart
+\resumeItem{Participated in Agile and Kanban ceremonies including sprint planning and backlog refinement; translated loosely defined stakeholder requests into well-defined implementation tasks with clear scope and acceptance criteria}
+\resumeItem{Served as technical owner for a centralized temperature zone mapping application, defining requirements, aligning distributed stakeholders across business and engineering, and driving delivery to standardize codes for consistent reporting}
+\resumeItem{Collaborated with product owners and analysts to define data behavior requirements and document expected outcomes, ensuring shared understanding of priorities and context before build}
+\resumeItem{Identified and surfaced a device-telemetry data quality gap, defined the problem statement and requirements for an automated monitoring solution, and drove delivery of structured alerts to protect downstream operational workflows}
+\resumeItemListEnd
+
+\resumeSubheading
+{Front End Supervisor}{June 2020 -- August 2025}
+{Costco Wholesale}{Columbus, OH; Florence, KY}
+\resumeItemListStart
+\resumeItem{Led 60+ employees in high-volume operations; partnered with management to analyze operational data, diagnose workflow bottlenecks, and implement process improvements in a department generating \$180M+ in annual revenue}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------FELLOWSHIPS & LEADERSHIP-----------
+\section{Fellowships \& Leadership}
+\resumeSubHeadingListStart
+\resumeSubheading
+{KCV Innovation Fellowship}{Spring 2026}
+{Kentucky Commercialization Ventures}{}
+\resumeItemListStart
+\resumeItem{Conducting structured customer discovery interviews to validate market assumptions, surface unmet needs, and ground opportunity assessments in direct user evidence}
+\resumeItem{Developing Market Attack Plans grounded in customer insights, technology readiness levels, IP positioning, and competitive ecosystem mapping}
+\resumeItem{Rotating as team lead across research phases, coordinating deliverables, managing dependencies, and driving pitch execution for commercialization strategy}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------SELECTED PROJECTS-----------
+\section{Selected Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{StressSpec --- Requirements Risk Analysis Platform}}{Python, FastAPI, REST API, pytest}
+\resumeItemListStart
+\resumeItem{Engineered a platform to detect structural ambiguity, scope gaps, and compliance risks in requirements documents before development begins; produces prioritized HTML/CSV/JSON reports for stakeholder review and decision-making}
+\resumeItem{Designed a modular rule engine covering 8 risk categories with extensible scoring and surfaced the Top 5 highest-risk requirements to support informed prioritization by product and business stakeholders}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Preserving Requirements-Driven Development in the Age of AI}}{Undergraduate Research}
+\resumeItemListStart
+\resumeItem{Designed an empirical study comparing requirements-driven vs.\ prompt-only LLM workflows; applied ISO/IEC 25010 and IEEE 830 standards to evaluate structural integrity, traceability, and long-term maintainability of AI-generated artifacts}
+\resumeItem{Featured Presenter at ISCAP Conference 2025; findings reinforce the measurable value of structured requirements definition in driving predictable, high-quality software delivery outcomes}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\end{document}

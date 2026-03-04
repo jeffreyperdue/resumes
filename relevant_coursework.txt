@@ -1,0 +1,2 @@
+Relevant Coursework:
+Data Structures & Algorithms; Database Programming; Software Design; Software Engineering & Security; Server-Side Programming; Computer Networks; Discrete Mathematics; Statistical Methods; Advanced Topics in Computer Science (AI-Driven IoT Systems)

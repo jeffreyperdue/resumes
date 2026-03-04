@@ -1,0 +1,31 @@
+Job Description
+Junior Data Engineer
+Location: Downtown Cincinnati
+A junior data engineer is an entry-level data professional (0-18 months of experience) responsible for designing, building,
+and maintaining data pipelines and systems. They work closely with Product Owners, data analysts, and business
+stakeholders to ensure data is accessible and high-quality. Junior data engineers typically have less experience than data
+engineers and are expected to work under the guidance of experienced engineers.
+Job Summary
+We are seeking a highly motivated, detail-oriented Entry-Level Data Engineer to join our dynamic team. The successful
+candidate will assist in gathering requirements, curating data elements and documenting data lineage in specified data
+repositories within the bank. This entry-level position offers an excellent opportunity to gain hands-on experience in data
+engineering and to work closely with experienced professionals.
+Duties and Responsibilities
+· Curating data elements and documenting data lineage
+· Managing data storage and ensuring data quality
+
+· Building and maintaining data pipelines and ETL processes – moving data between different cloud-based platforms and on-
+premises data sources
+
+· Working with Product Owners and Analysts to understand business requirements and provide data solutions
+· Writing scripts and code to automate data processes
+· Develop and maintain data models and transformation logic using DBT in a cloud or on-prem data environment.
+· Participate in Agile ceremonies and contribute to sprint planning and reviews.
+Requirements and Qualifications
+· Strong problem-solving and communication skills
+· Proficiency in at least one programming language (Python, Java, etc.)
+· In-depth understanding of commonly used Databases, Data Warehousing concepts, and ETL technologies (DataStage, dbt)
+· High level of proficiency using SQL
+· Strong understanding of joining data in SQL
+· Understanding of big data technologies (Curation, Data Lineage, Data Mesh, etc.)
+· Experience with cloud platforms (Snowflake, AWS etc.)
